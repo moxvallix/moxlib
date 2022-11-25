@@ -1,0 +1,2 @@
+execute store success storage moxlib:data/private/compare result byte 1 run data modify storage moxlib:api/data/compare target merge from storage moxlib:api/data/compare key
+function moxlib:data/compare/return

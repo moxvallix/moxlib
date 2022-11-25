@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:tall_grass",
+    "minecraft:tall_seagrass",
+    "minecraft:target",
+    "minecraft:terracotta",
+    "minecraft:tinted_glass",
+    "minecraft:tnt",
+    "minecraft:torch",
+    "minecraft:trapped_chest",
+    "minecraft:tripwire",
+    "minecraft:tripwire_hook",
+    "minecraft:tube_coral",
+    "minecraft:tube_coral_block",
+    "minecraft:tube_coral_fan",
+    "minecraft:tube_coral_wall_fan",
+    "minecraft:tuff",
+    "minecraft:turtle_egg",
+    "minecraft:twisting_vines",
+    "minecraft:twisting_vines_plant"
+  ]
+}

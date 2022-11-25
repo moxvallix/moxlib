@@ -1,0 +1,6 @@
+data modify storage moxlib:api/helpers/block/get output.letter set value "q"
+execute if block ~ ~ ~ minecraft:quartz_block run data modify storage moxlib:api/helpers/block/get output.block set value "minecraft:quartz_block"
+execute if block ~ ~ ~ minecraft:quartz_bricks run data modify storage moxlib:api/helpers/block/get output.block set value "minecraft:quartz_bricks"
+execute if block ~ ~ ~ minecraft:quartz_pillar run data modify storage moxlib:api/helpers/block/get output.block set value "minecraft:quartz_pillar"
+execute if block ~ ~ ~ minecraft:quartz_slab run data modify storage moxlib:api/helpers/block/get output.block set value "minecraft:quartz_slab"
+execute if block ~ ~ ~ minecraft:quartz_stairs run data modify storage moxlib:api/helpers/block/get output.block set value "minecraft:quartz_stairs"

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:farmland",
+    "minecraft:fern",
+    "minecraft:fire",
+    "minecraft:fire_coral",
+    "minecraft:fire_coral_block",
+    "minecraft:fire_coral_fan",
+    "minecraft:fire_coral_wall_fan",
+    "minecraft:fletching_table",
+    "minecraft:flower_pot",
+    "minecraft:flowering_azalea",
+    "minecraft:flowering_azalea_leaves",
+    "minecraft:frogspawn",
+    "minecraft:frosted_ice",
+    "minecraft:furnace"
+  ]
+}

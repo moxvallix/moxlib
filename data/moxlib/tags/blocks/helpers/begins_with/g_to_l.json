@@ -1,0 +1,12 @@
+ 
+{
+  "replace": false,
+  "values": [
+    "#moxlib:helpers/begins_with/g",
+    "#moxlib:helpers/begins_with/h",
+    "#moxlib:helpers/begins_with/i",
+    "#moxlib:helpers/begins_with/j",
+    "#moxlib:helpers/begins_with/k",
+    "#moxlib:helpers/begins_with/l"
+  ]
+}

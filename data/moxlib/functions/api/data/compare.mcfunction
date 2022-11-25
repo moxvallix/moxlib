@@ -1,0 +1,1 @@
+execute unless data storage moxlib:data/private {lock:true} run function moxlib:data/compare/init
