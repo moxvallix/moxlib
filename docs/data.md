@@ -10,7 +10,7 @@ on a `key` object.
 ### Get
 Retrieves the data matching the given key.
 
-**Function:** `moxlib:api/data/get`
+**Function:** `moxlib:api/data/get`  
 **Expects:**
 - `target` -- an array of NBT objects
 - `key` -- an NBT object
@@ -35,7 +35,7 @@ Example:
 Sets the given data into the target array, either by changing an existing record,
 or appending the new record to the end. Returns the modified array.
 
-**Function:** `moxlib:api/data/set`
+**Function:** `moxlib:api/data/set`  
 **Expects:**
 - `target` -- an array of NBT objects
 - `key` -- an NBT object
@@ -61,7 +61,7 @@ Example:
 ### Compare
 Checks to see if the given `key` is in the given `target`.
 
-**Function:** `moxlib:api/data/compare`
+**Function:** `moxlib:api/data/compare`  
 **Expects:**
 - `target` -- an NBT object
 - `key` -- an NBT object
@@ -85,6 +85,6 @@ Example:
 ### Reset
 Resets the lock, in the unlikely case it gets stuck.
 
-**Function:** `moxlib:api/data/reset`
-**Expects:** No value expected
+**Function:** `moxlib:api/data/reset`  
+**Expects:** No value expected  
 **Returns:** No value returned

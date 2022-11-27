@@ -22,8 +22,8 @@ of the function into the `receives` tag.
 
 **Note** The test suite does *not* follow the same syntax as the other functions.
 
-**Function:** `moxlib:api/test/perform`
-**Storage:** `moxlib:test/it`
+**Function:** `moxlib:api/test/perform`  
+**Storage:** `moxlib:test/it`  
 **Expects:**
 - `describes` -- the name of the test, as a string
 - `expects` -- the expected NBT data
@@ -46,8 +46,8 @@ Runs the tests as listed in `#moxlib:test`.
 
 Running start with the tag `moxlib.dev` will run Moxlib's internal tests.
 
-**Function:** `moxlib:api/test/start`
-**Expects:** No value expected
+**Function:** `moxlib:api/test/start`  
+**Expects:** No value expected  
 **Returns:** No value returned
 
 Example:

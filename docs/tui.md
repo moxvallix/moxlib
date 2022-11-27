@@ -78,8 +78,8 @@ data modify storage moxlib:tui/page template set value [{slot:0b,text:'{"text":"
 Calls the `#moxlib:tui/select/init` tag, then `#moxlib:tui/index`.
 Parses the executing player's selection, then renders the next page, if any. Recommended to be run on tick.
 
-**Function:** `moxlib:api/tui/select`
-**Expects:** No value expected
+**Function:** `moxlib:api/tui/select`  
+**Expects:** No value expected  
 **Returns:** No value returned
 
 ## Callbacks
