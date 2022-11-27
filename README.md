@@ -28,6 +28,9 @@ you would use to call the function.
 
 Eg. `/function moxlib:api/helpers/block/get` writes to `/data get storage moxlib:api/helpers/block/get`
 
+However, the `test` and `tui` modules are an exception, using more semantic language for their
+respective tasks. See their individual documentations.
+
 Functions will usually take in a `target`. Think of this as the main input. It is the piece of
 data that the function will manipulate. Functions will occasionally ask for other data as well.
 
@@ -54,3 +57,8 @@ NBT data.
 The test module contains functions for testing other functions.
 
 Currently, it can only test to see that a function returned the correct value.
+
+#### TUI
+[See documentation...](/docs/tui.md)
+
+The TUI module allows for easy creation of data driven TUIs.

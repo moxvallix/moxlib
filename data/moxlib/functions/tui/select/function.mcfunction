@@ -1,0 +1,2 @@
+execute if score @s moxlib.tui.selection matches -1 run execute store result score @s moxlib.tui.page run data get storage moxlib:tui/page navigation.previous
+execute if score @s moxlib.tui.selection matches -2 run execute store result score @s moxlib.tui.page run data get storage moxlib:tui/page navigation.next

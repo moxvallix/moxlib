@@ -1,0 +1,1 @@
+execute if predicate moxlib:tui/selected unless data storage moxlib:tui/private {lock:true} run function moxlib:tui/select/init
