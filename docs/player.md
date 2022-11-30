@@ -31,7 +31,7 @@ This function will not work unless it is executed as a player.
 `moxlib:api/player/has_scrolled`  -- true if player scrolled that tick
 
 ### Function Tags
-`#moxlib:api/player/on_death` -- run by the player on death
-`#moxlib:api/player/on_kill` -- run by the player on killing an entity
-`#moxlib:api/player/on_player_kill` -- run by the player on killing a player
+`#moxlib:api/player/on_death` -- run by the player on death  
+`#moxlib:api/player/on_kill` -- run by the player on killing an entity  
+`#moxlib:api/player/on_player_kill` -- run by the player on killing a player  
 `#moxlib:api/player/on_scroll` -- run by the player on scrolling the hotbar
