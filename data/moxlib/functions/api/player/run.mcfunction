@@ -1,0 +1,1 @@
+function moxlib:player/init

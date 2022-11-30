@@ -62,3 +62,13 @@ Currently, it can only test to see that a function returned the correct value.
 [See documentation...](/docs/tui.md)
 
 The TUI module allows for easy creation of data driven TUIs.
+
+#### Math
+[See documentation...](/docs/math.md)
+
+The Math module provides some helpful math functions.
+
+#### Player
+[See documentation...](/docs/player.md)
+
+The Player module exposes some helpful information about the player.

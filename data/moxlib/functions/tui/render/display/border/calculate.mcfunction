@@ -8,4 +8,4 @@ scoreboard players operation $title moxlib.tui.render += $gap moxlib.tui.render
 
 scoreboard players operation $border moxlib.tui.render = $header moxlib.tui.render
 scoreboard players operation $border moxlib.tui.render -= $title moxlib.tui.render
-scoreboard players operation $border moxlib.tui.render /= $2 moxlib.tui.constants
+scoreboard players operation $border moxlib.tui.render /= $2 moxlib.api.math.constants

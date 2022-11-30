@@ -12,9 +12,9 @@ change the content of the TUI. See the callbacks section for more details.
 
 ## API
 ### Render
-Calls the `#moxlib:tui/render/init` tag, then `#moxlib:tui/index`.
+Calls the `#moxlib:api/tui/render/init` tag, then `#moxlib:api/tui/index`.
 Displays the TUI to the executing player, based on the given input,
-usually resolved from `#moxlib:tui/index`.
+usually resolved from `#moxlib:api/tui/index`.
 
 **Note** The TUI system does *not* follow the same syntax as the other functions.
 
@@ -75,7 +75,7 @@ data modify storage moxlib:tui/page template set value [{slot:0b,text:'{"text":"
 ```
 
 ### Select
-Calls the `#moxlib:tui/select/init` tag, then `#moxlib:tui/index`.
+Calls the `#moxlib:api/tui/select/init` tag, then `#moxlib:api/tui/index`.
 Parses the executing player's selection, then renders the next page, if any. Recommended to be run on tick.
 
 **Function:** `moxlib:api/tui/select`  
@@ -86,7 +86,7 @@ Parses the executing player's selection, then renders the next page, if any. Rec
 ### Init
 Called before `select` or `render`. Perfect for setting initial variables.
 
-**Tag:** `#moxlib:tui/init`
+**Tag:** `#moxlib:api/tui/init`
 
 ### Index
 Called before `select` or `render`.
@@ -94,14 +94,14 @@ Called before `select` or `render`.
 Functions called by this tag should read the executing player's `moxlib.tui.page` score,
 and configure the `moxlib:tui/page` data accordingly (see `render`).
 
-**Tag:** `#moxlib:tui/index`
+**Tag:** `#moxlib:api/tui/index`
 
 ### Render - Init
-Called before `render` and `#moxlib:tui/index`.
+Called before `render` and `#moxlib:api/tui/index`.
 
 Perfect for setting render relevant variables.
 
-**Tag:** `#moxlib:tui/render/init`
+**Tag:** `#moxlib:api/tui/render/init`
 
 ### Render - Slot
 Called for each slot in the `moxlib:tui/page template` array.
@@ -109,14 +109,14 @@ Called for each slot in the `moxlib:tui/page template` array.
 Exposes the current slot as `moxlib:tui/slot current`.
 Perfect for dynamically modifying the rendered data.
 
-**Tag:** `#moxlib:tui/render/slot`
+**Tag:** `#moxlib:api/tui/render/slot`
 
 ### Select - Init
-Called before `select` and `#moxlib:tui/index`.
+Called before `select` and `#moxlib:api/tui/index`.
 
 Perfect for setting select relevant variables.
 
-**Tag:** `#moxlib:tui/select/init`
+**Tag:** `#moxlib:api/tui/select/init`
 
 ### Select - Slot
 Called for the slot selected by the player, based on it's slot number.
@@ -124,4 +124,4 @@ Called for the slot selected by the player, based on it's slot number.
 Exposes the selected slot as `moxlib:tui/slot current`.
 Perfect for performing certain actions based on the data in the slot.
 
-**Tag:** `#moxlib:tui/select/slot`
+**Tag:** `#moxlib:api/tui/select/slot`

@@ -1,7 +1,7 @@
 function moxlib:tui/common/setup
 
-function #moxlib:tui/render/init
-function #moxlib:tui/index
+function #moxlib:api/tui/render/init
+function #moxlib:api/tui/index
 
 execute unless data storage moxlib:tui/page template run function moxlib:tui/warnings/404
 

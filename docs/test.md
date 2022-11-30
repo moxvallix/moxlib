@@ -6,7 +6,7 @@ Moxlib provides a test suite, for verifying a function provides the correct outp
 The syntax of the test suite is inspired by [RSpec](https://rspec.info/).
 
 If you have multiple tests you would like to run at once, place them in functions,
-then add those functions to the tag `#moxlib:test`. Each of the functions must also
+then add those functions to the tag `#moxlib:api/test`. Each of the functions must also
 call `moxlib:api/test/perform` themselves.
 
 When you run `moxlib:api/test/start`, it will run all the tests at once, and number them.
@@ -42,7 +42,7 @@ Example:
 ```
 
 ### Start
-Runs the tests as listed in `#moxlib:test`.
+Runs the tests as listed in `#moxlib:api/test`.
 
 Running start with the tag `moxlib.dev` will run Moxlib's internal tests.
 

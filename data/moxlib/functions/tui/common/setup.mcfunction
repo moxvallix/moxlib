@@ -2,4 +2,4 @@
 data modify storage moxlib:tui/private lock set value true
 schedule function moxlib:api/tui/reset 1t
 
-function #moxlib:tui/init
+function #moxlib:api/tui/init

@@ -1,4 +1,3 @@
-scoreboard objectives add moxlib.tui.constants dummy
 scoreboard objectives add moxlib.tui.page dummy
 scoreboard objectives add moxlib.tui.page.last dummy
 
