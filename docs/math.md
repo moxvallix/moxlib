@@ -17,7 +17,7 @@ Generates random numbers.
 **Function:** `moxlib:api/math/random`  
 **Objective:** `moxlib.api.math.random`  
 **Expects:**
-- `$seed` -- optional, can set that fake player to be the seed of the number generator
+- `$seed` -- optional, can set that fake player to be the seed of the number generator  
 **Returns:**
 - `$rng` -- large random number
 - `$rand_n` -- random number between 0 and n-1
