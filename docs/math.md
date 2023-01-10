@@ -41,7 +41,7 @@ Provides a series of pre-set values in a scoreboard.
 **Returns:**
 - `$n` -- fake player, with value assigned same as it's name
   - valid numbers are:  
-  [1..100, 120..1000 at intervals of 20, 1023..2147483647 2^n-1 and 2^n]
+  [-1..100, 120..1000 at intervals of 20, 1023..2147483647 2^n-1 and 2^n]
 
 Example:
 ```
@@ -77,4 +77,49 @@ $size = 1
 $pattern = 3
 $base_color = 10
 $pattern_color = 4
+```
+
+### Power
+Calculates `$target` to the power of `$power`. `$power` is expected to be positive.
+
+**Function:** `moxlib:api/math/power`  
+**Objective:** `moxlib.api.math.power`  
+**Expects:**
+- `$target` -- set this as the target number
+- `$power` -- set this as what `$target` should be to the power of
+**Returns:**
+- `$output` -- `$target` put to the power of `$power`
+
+Example:
+```
+/scoreboard players set $target moxlib.api.math.power 5
+/scoreboard players set $power moxlib.api.math.power 2
+/function moxlib:api/math/power
+/scoreboard players get $output moxlib.api.math.power
+---
+$output = 25
+```
+
+### Array to Integer
+Turns an array of numbers into a single integer. Perfect for making a virtual calculator,
+where you need to turn an array of user inputs, into a usable number.
+
+Unlike other functions in this module, this function uses data storage, and thus,
+the standard function API.
+
+**Function:** `moxlib:api/math/array_to_integer`  
+**Expects:**
+- `target` -- an array of numbers (single digit, 0-9)
+**Returns:**
+- `output` -- an integer, created from the given numbers
+
+Example:
+```
+/data modify storage moxlib:api/math/array_to_integer target set value [1,9,8,7]
+/function moxlib:api/math/array_to_integer
+/data get storage moxlib:api/math/array_to_integer
+---
+{
+  output: 1987
+}
 ```

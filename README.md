@@ -15,7 +15,7 @@ or other timer based methods.
 
 Moxlib is licensed under the GNU LGPL, meaning you are free to use it in your
 own Datapacks, themselves under any license, but any changes you make to Moxlib must
-be released under the terms of the LGPL. See [LICENSE.md](/LICENSE.md) for full license.
+be released under the terms of the LGPL. See [LICENSE.md](https://github.com/moxvallix/moxlib/blob/main/LICENSE.md) for full license.
 
 Suggestions and contributions welcomed!
 
@@ -39,36 +39,36 @@ their success to a `success` tag, although not all functions implement this.
 
 ### Modules
 #### Helpers
-[See documentation...](/docs/helpers.md)
+[See documentation...](https://github.com/moxvallix/moxlib/blob/main/docs/helpers.md)
 
 The helpers module contains small, miscellaneous, but helpful functions.
 
 These functions are too small and specific to warrant a module of their own.
 
 #### Data
-[See documentation...](/docs/data.md)
+[See documentation...](https://github.com/moxvallix/moxlib/blob/main/docs/data.md)
 
 The data module contains functions specifically for working with arrays of 
 NBT data.
 
 #### Test
-[See documentation...](/docs/test.md)
+[See documentation...](https://github.com/moxvallix/moxlib/blob/main/docs/test.md)
 
 The test module contains functions for testing other functions.
 
 Currently, it can only test to see that a function returned the correct value.
 
 #### TUI
-[See documentation...](/docs/tui.md)
+[See documentation...](https://github.com/moxvallix/moxlib/blob/main/docs/tui.md)
 
 The TUI module allows for easy creation of data driven TUIs.
 
 #### Math
-[See documentation...](/docs/math.md)
+[See documentation...](https://github.com/moxvallix/moxlib/blob/main/docs/math.md)
 
 The Math module provides some helpful math functions.
 
 #### Player
-[See documentation...](/docs/player.md)
+[See documentation...](https://github.com/moxvallix/moxlib/blob/main/docs/player.md)
 
 The Player module exposes some helpful information about the player.

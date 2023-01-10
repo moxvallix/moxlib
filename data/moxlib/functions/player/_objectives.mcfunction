@@ -1,3 +1,4 @@
+scoreboard objectives add moxlib.api.player.id dummy
 scoreboard objectives add moxlib.api.player.died deathCount
 scoreboard objectives add moxlib.api.player.killed totalKillCount
 scoreboard objectives add moxlib.api.player.killed_player playerKillCount

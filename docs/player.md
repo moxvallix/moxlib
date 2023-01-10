@@ -15,6 +15,7 @@ This function will not work unless it is executed as a player.
 
 ## API
 ### Scoreboard Objectives
+`moxlib.api.player.id` -- unique player id  
 `moxlib.api.player.died` -- death count of player  
 `moxlib.api.player.killed` -- total kill count of player, any entity  
 `moxlib.api.player.killed_player` -- count of player kills by player  

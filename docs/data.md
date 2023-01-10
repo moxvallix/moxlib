@@ -8,7 +8,7 @@ on a `key` object.
 
 ## API
 ### Get
-Retrieves the data matching the given key.
+Retrieves the first piece of data matching the given key.
 
 **Function:** `moxlib:api/data/get`  
 **Expects:**
@@ -27,6 +27,35 @@ Example:
 ---
 {
   output: {id:2,b:1},
+  success: true
+}
+```
+
+### Collect
+Retrieves any data matching the given key, separating them out from the rest.
+
+**Function:** `moxlib:api/data/collect`  
+**Expects:**
+- `target` -- an array of NBT objects
+- `key` -- an NBT object
+**Returns:**
+- `output`
+  - `match` -- any data matching the given key
+  - `remain` -- any data not matching the given key
+- `success` -- true if an object could be found, otherwise false
+
+Example:
+```
+/data modify storage moxlib:api/data/get target set value [{id:1,a:1},{id:1,b:1},{id:2,c:1}]
+/data modify storage moxlib:api/data/get key set value {id:1}
+/function moxlib:api/data/get
+/data get storage moxlib:api/data/get
+---
+{
+  output: {
+    match: [{id:1,a:1},{id:1,b:1}],
+    remain: [{id:2,c:1}]
+  }
   success: true
 }
 ```
@@ -79,6 +108,32 @@ Example:
 {
   output: true,
   success: true
+}
+```
+
+### Paginate
+Retrieves a "page" of data from an array. Best paired with
+[/helpers/data/calculate_pages](/docs/helpers.md#calculate-pages)
+to calculate the amount of pages in a given array.
+
+**Function:** `moxlib:api/data/paginate`  
+**Expects:**
+- `target` -- an array of NBT objects
+- `count` -- the number of objects to a page
+- `page` -- the page of data to display
+**Returns:**
+- `output` -- an array of data for the given page
+
+Example:
+```
+/data modify storage moxlib:api/data/paginate target set value [1,2,3,4,5,6,7,8,9]
+/data modify storage moxlib:api/data/paginate count set value 3
+/data modify storage moxlib:api/data/paginate page set value 2
+/function moxlib:api/data/paginate
+/data get storage moxlib:api/data/paginate
+---
+{
+  output: [4,5,6]
 }
 ```
 

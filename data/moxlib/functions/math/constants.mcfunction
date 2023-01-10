@@ -1,3 +1,4 @@
+scoreboard players set $-1 moxlib.api.math.constants -1
 scoreboard players set $0 moxlib.api.math.constants 0
 scoreboard players set $1 moxlib.api.math.constants 1
 scoreboard players set $2 moxlib.api.math.constants 2
