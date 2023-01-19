@@ -32,7 +32,7 @@ Example:
     block: "minecraft:chest",
     group: "a_to_f",
     letter: "c",
-    moxlib:data/ {
+    data: {
       id: "minecraft:chest",
       x: 0,
       y: 64,
