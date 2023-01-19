@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.4.1] - 2023-01-19
+This update only adds one function, and fixes a minor bug, thus has been marked as a patch release.
+
+### Added
+- String to Array, converts a string to an array of characters.
+  - Requires snapshot 23w03a (1.19.4) or higher.
+
+### Fixed
+- Helper Data / Calculate Pages no longer reports one fewer page than it should.
+
 ## [0.4.0] - 2023-01-10
 This update was our largest yet! Many useful new functions added, as detailed below.
 
