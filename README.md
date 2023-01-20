@@ -37,6 +37,9 @@ data that the function will manipulate. Functions will occasionally ask for othe
 Functions, if they output anything, will write to `output`. Optionally, they might also record
 their success to a `success` tag, although not all functions implement this.
 
+Some functions and modules are marked as "experimental". These require [Moxlib Exp](https://github.com/moxvallix/moxlib-exp)
+to function.
+
 ### Modules
 #### Helpers
 [See documentation...](https://github.com/moxvallix/moxlib/blob/main/docs/helpers.md)
@@ -72,3 +75,13 @@ The Math module provides some helpful math functions.
 [See documentation...](https://github.com/moxvallix/moxlib/blob/main/docs/player.md)
 
 The Player module exposes some helpful information about the player.
+
+#### String
+[See documentation...](https://github.com/moxvallix/moxlib/blob/main/docs/string.md)
+
+The String module provides functions to manipulate strings.
+
+#### Dimension
+[See documentation...](https://github.com/moxvallix/moxlib/blob/main/docs/dimension.md)
+
+Moxlib provides a dimension for storing and accessing blocks. (Requires Moxlib Exp)

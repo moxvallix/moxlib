@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.0] - 2023-01-21
+Moxlib now has a sister project, [Moxlib Exp](https://github.com/moxvallix/moxlib-exp).
+It enables experimental features. It has its own [Changelog](https://github.com/moxvallix/moxlib-exp/blob/main/CHANGELOG.md).
+
+### Added
+- String module and documentation.
+
+### Changed
+- String to Array has been moved to the string module. Make sure to update your packs, as this is a breaking change.
+- Version info will now display Moxlib Exp version too, if the library is present.
+
+### Fixed
+- The in-game version info hadn't been updated since 0.3.0. Now reports 0.5.0.
+
 ## [0.4.1] - 2023-01-19
 This update only adds one function, and fixes a minor bug, thus has been marked as a patch release.
 

@@ -137,26 +137,6 @@ Example:
 }
 ```
 
-### String to Array
-Turns a given string into an array of characters. Requires snapshot 23w03a+ (1.19.4+).
-
-**Function:** `moxlib:api/data/string_to_array`  
-**Expects:**
-- `target` -- any string
-**Returns:**
-- `output` -- an array of characters in that string, in order
-
-Example:
-```
-/data modify storage moxlib:api/data/string_to_array target set value "Hello, World!"
-/function moxlib:api/data/string_to_array
-/data get storage moxlib:api/data/string_to_array
----
-{
-  output: ["H","e","l","l","o",","," ","W","o","r","l","d","!"]
-}
-```
-
 ### Reset
 Resets the lock, in the unlikely case it gets stuck.
 
