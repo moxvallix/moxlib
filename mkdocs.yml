@@ -1,0 +1,21 @@
+site_name: Moxlib
+theme:
+  name: material
+  logo: assets/icon.png
+  palette: 
+    scheme: slate
+    primary: black
+    accent: indigo
+  features:
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+markdown_extensions:
+  - attr_list
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
