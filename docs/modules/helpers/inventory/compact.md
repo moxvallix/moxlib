@@ -35,4 +35,6 @@ and compacts the data, following correct stack sizes and such.
 - [Object Array](/types#array) `target`
 
 ### Returns
-- [Object Array](/types#array) `output` -- compacted array of items
+- [Object Array](/types#array) `output`
+
+Inventory data 
