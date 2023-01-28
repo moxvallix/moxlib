@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.1] - 2023-01-28
+### Added
+- String / Newline, stores a newline character in storage `moxlib:api/string/newline`
+
+### Fixed
+- String / To Array now works as intended again.
+
 ## [0.5.0] - 2023-01-21
 Moxlib now has a sister project, [Moxlib Exp](https://github.com/moxvallix/moxlib-exp).
 It enables experimental features. It has its own [Changelog](https://github.com/moxvallix/moxlib-exp/blob/main/CHANGELOG.md).

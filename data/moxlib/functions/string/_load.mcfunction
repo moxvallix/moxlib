@@ -1,0 +1,1 @@
+execute unless data storage moxlib:api/string/newline output run function moxlib:string/newline
