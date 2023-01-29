@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.2] - 2023-01-30
+### Added
+- Predicates to detect a player sneaking, swimming, sprinting, or on fire.
+
 ## [0.5.1] - 2023-01-28
 ### Added
 - String / Newline, stores a newline character in storage `moxlib:api/string/newline`
