@@ -56,6 +56,41 @@ Example:
 }
 ```
 
+### Filter
+Returns false if the given key is within the given target string array, otherwise true.
+
+**Function:** `moxlib:api/string/filter`  
+**Expects:**  
+- `target` -- an array of strings
+- `key` -- a string to compare with
+
+**Returns:**
+- `output` -- true if the string is not in target, false if it is.
+
+Example:
+```
+/data modify storage moxlib:api/string/filter target set value ["a","b","c"]
+/data modify storage moxlib:api/string/filter key set value "d"
+/function moxlib:api/string/filter
+
+/data get storage moxlib:api/string/filter
+---
+{
+  output: true
+}
+```
+
+### Resolve
+Resolves the given JSON text string, as the executing entity.
+
+**Function:** `moxlib:api/string/resolve`  
+**Expects:**  
+- `target` -- a JSON text string
+
+**Returns:**
+- `output` -- resolved JSON text string
+
+
 ### Reset
 Resets the lock, in the unlikely case it gets stuck.
 

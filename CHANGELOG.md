@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.3] - 2023-02-01
+### Added
+- String / Filter, returns true if the given string is not in the target array.
+- String / Resolve, returns the given JSON text string resolved as the executing entity.
+
 ## [0.5.2] - 2023-01-30
 ### Added
 - Predicates to detect a player sneaking, swimming, sprinting, or on fire.
