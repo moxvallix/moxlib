@@ -1,0 +1,1 @@
+execute as @e[type=shulker,tag=moxlib.helpers.block.place] at @s run function moxlib:helpers/block/place/check
