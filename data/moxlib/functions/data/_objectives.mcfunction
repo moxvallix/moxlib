@@ -3,3 +3,4 @@ scoreboard objectives add moxlib.data.set dummy
 scoreboard objectives add moxlib.data.collect dummy
 scoreboard objectives add moxlib.data.compare dummy
 scoreboard objectives add moxlib.data.paginate dummy
+scoreboard objectives add moxlib.data.typify dummy
