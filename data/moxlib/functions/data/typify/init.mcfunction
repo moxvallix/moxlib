@@ -1,4 +1,4 @@
-data modify storage moxlib:data/private/typify typed_arrays set value {integer_array: [0], string_array: [""], array_array: [[]], object_array: [{}]}
+data modify storage moxlib:data/private/typify typed_arrays set value {byte_array: [0b], short_array: [0s], integer_array: [0], float_array: [0f], double_array: [0d], long_array: [0l], string_array: [""], array_array: [[]], object_array: [{}]}
 
 function moxlib:data/typify/checks
 function moxlib:data/typify/find
