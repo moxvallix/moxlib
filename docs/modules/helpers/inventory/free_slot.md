@@ -1,16 +1,18 @@
-#### Free Slot
-Returns the lowest free slot of the executing player.
+# Free Slot
+`moxlib:api/helpers/inventory/free_slot`
 
-**Function:** `moxlib:api/helpers/inventory/free_slot`  
-**Expects:** no input required.  
-**Returns:** a byte representing the lowest free slot
+## Overview
+Returns the lowest free inventory slot of the executing player.
 
-Example:
-```
-/execute as Steve run function moxlib:api/helpers/inventory/free_slot
-/data get storage moxlib:api/helpers/inventory/free_slot
----
-{
-  output: 5b
-}
-```
+!!! example
+    ``` mcfunction
+    execute as Steve run function moxlib:api/helpers/inventory/free_slot
+    ```
+    ``` snbt title="Output of storage moxlib:api/helpers/inventory/free_slot"
+    {
+      output: 5b
+    }
+    ```
+## API
+### Returns 
+- [Byte](/types#byte) `output`

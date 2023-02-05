@@ -6,7 +6,7 @@ Takes an array of items in the standard inventory format (Inventory, EnderItems,
 and compacts the data, following correct stack sizes and such.
 
 !!! example
-    ``` snbt title="Inventory of @s"
+    ``` snbt title="Inventory of Steve"
     [
       {id:"minecraft:dirt",Slot:5b,Count:38b},
       {id:"minecraft:diamond_sword",Slot:7b,Count:1b},
@@ -16,7 +16,7 @@ and compacts the data, following correct stack sizes and such.
     ]
     ```
     ``` mcfunction
-    data modify storage moxlib:api/helpers/inventory/compact target set from entity @s Inventory
+    data modify storage moxlib:api/helpers/inventory/compact target set from entity Steve Inventory
     function moxlib:api/helpers/inventory/compact
     ```
     ``` snbt title="Output of storage moxlib:api/helpers/inventory/compact"
