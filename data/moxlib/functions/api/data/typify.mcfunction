@@ -1,1 +1,1 @@
-function moxlib:data/typify/init
+execute unless data storage moxlib:data/private {lock:true} run function moxlib:data/typify/init

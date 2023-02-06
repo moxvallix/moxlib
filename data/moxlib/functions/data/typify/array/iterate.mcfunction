@@ -3,7 +3,7 @@ data modify storage moxlib:data/private/typify stack[-1].value set from storage 
 
 tellraw @a {"nbt": "stack", "storage": "moxlib:data/private/typify"}
 
-function moxlib:data/typify/main
+function moxlib:data/typify/typify
 
 tellraw @a {"nbt":"output", "storage": "moxlib:api/data/typify"}
 
