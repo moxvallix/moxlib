@@ -41,6 +41,9 @@ Some functions and modules are marked as "experimental". These require [Moxlib E
 to function.
 
 ### Modules
+The following links show the old documentation. For the work-in-progress new documentation,
+visit [Moxlib Docs](https://moxlib.moxvallix.com)
+
 #### Helpers
 [See documentation...](https://github.com/moxvallix/moxlib/blob/main/docs/helpers.md)
 
