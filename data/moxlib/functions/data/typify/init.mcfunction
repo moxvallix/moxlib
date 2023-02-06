@@ -1,9 +1,9 @@
-data modify storage moxlib:data/private/typify typed_arrays set value {byte_array: [0b], short_array: [0s], integer_array: [0], float_array: [0f], double_array: [0d], long_array: [0l], string_array: [""], array_array: [[]], object_array: [{}]}
+data modify storage moxlib:data/private/typify stack set value []
+data modify storage moxlib:data/private/typify array_stack set value []
+data modify storage moxlib:data/private/typify array_result_stack set value []
+data modify storage moxlib:data/private/typify stack append value {type: "unknown", value: 0}
+data modify storage moxlib:data/private/typify stack[-1].value set from storage moxlib:api/data/typify target
 
-function moxlib:data/typify/checks
-function moxlib:data/typify/find
+function moxlib:data/typify/main
 
-execute if data storage moxlib:api/data/typify output{type:"array"} run function moxlib:data/typify/array
-
-function moxlib:data/typify/set_output
 function moxlib:data/typify/cleanup
