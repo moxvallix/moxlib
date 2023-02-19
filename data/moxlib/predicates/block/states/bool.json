@@ -1,0 +1,49 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/bloom"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/drag"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/eye"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/has_book"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/has_record"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/occupied"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shrieking"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/signal_fire"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/snowy"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/unstable"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/waterlogged"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/has_record/true run data modify storage moxlib:api/helpers/block/get output.state.has_record set value true
+execute if predicate moxlib:block/states/has_record/false run data modify storage moxlib:api/helpers/block/get output.state.has_record set value false

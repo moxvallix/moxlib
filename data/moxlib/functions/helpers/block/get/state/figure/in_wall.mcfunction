@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/in_wall/true run data modify storage moxlib:api/helpers/block/get output.state.in_wall set value true
+execute if predicate moxlib:block/states/in_wall/false run data modify storage moxlib:api/helpers/block/get output.state.in_wall set value false

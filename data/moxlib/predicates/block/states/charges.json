@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/charges/0"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/charges/1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/charges/2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/charges/3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/charges/4"
+    }
+  ]
+}

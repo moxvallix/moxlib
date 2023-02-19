@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/locked/true run data modify storage moxlib:api/helpers/block/get output.state.locked set value true
+execute if predicate moxlib:block/states/locked/false run data modify storage moxlib:api/helpers/block/get output.state.locked set value false

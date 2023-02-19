@@ -1,0 +1,3 @@
+execute if predicate moxlib:block/states/sculk_sensor_phase/active run data modify storage moxlib:api/helpers/block/get output.state.sculk_sensor_phase set value "active"
+execute if predicate moxlib:block/states/sculk_sensor_phase/cooldown run data modify storage moxlib:api/helpers/block/get output.state.sculk_sensor_phase set value "cooldown"
+execute if predicate moxlib:block/states/sculk_sensor_phase/inactive run data modify storage moxlib:api/helpers/block/get output.state.sculk_sensor_phase set value "inactive"

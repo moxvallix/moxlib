@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/attached/true run data modify storage moxlib:api/helpers/block/get output.state.attached set value true
+execute if predicate moxlib:block/states/attached/false run data modify storage moxlib:api/helpers/block/get output.state.attached set value false

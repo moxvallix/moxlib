@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/has_bottle_0/true run data modify storage moxlib:api/helpers/block/get output.state.has_bottle_0 set value true
+execute if predicate moxlib:block/states/has_bottle_0/false run data modify storage moxlib:api/helpers/block/get output.state.has_bottle_0 set value false

@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/facing/north"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/facing/east"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/facing/south"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/facing/west"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/facing/up"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/facing/down"
+    }
+  ]
+}

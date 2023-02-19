@@ -1,0 +1,16 @@
+execute if predicate moxlib:block/states/power/0 run data modify storage moxlib:api/helpers/block/get output.state.power set value 0b
+execute if predicate moxlib:block/states/power/1 run data modify storage moxlib:api/helpers/block/get output.state.power set value 1b
+execute if predicate moxlib:block/states/power/2 run data modify storage moxlib:api/helpers/block/get output.state.power set value 2b
+execute if predicate moxlib:block/states/power/3 run data modify storage moxlib:api/helpers/block/get output.state.power set value 3b
+execute if predicate moxlib:block/states/power/4 run data modify storage moxlib:api/helpers/block/get output.state.power set value 4b
+execute if predicate moxlib:block/states/power/5 run data modify storage moxlib:api/helpers/block/get output.state.power set value 5b
+execute if predicate moxlib:block/states/power/6 run data modify storage moxlib:api/helpers/block/get output.state.power set value 6b
+execute if predicate moxlib:block/states/power/7 run data modify storage moxlib:api/helpers/block/get output.state.power set value 7b
+execute if predicate moxlib:block/states/power/8 run data modify storage moxlib:api/helpers/block/get output.state.power set value 8b
+execute if predicate moxlib:block/states/power/9 run data modify storage moxlib:api/helpers/block/get output.state.power set value 9b
+execute if predicate moxlib:block/states/power/10 run data modify storage moxlib:api/helpers/block/get output.state.power set value 10b
+execute if predicate moxlib:block/states/power/11 run data modify storage moxlib:api/helpers/block/get output.state.power set value 11b
+execute if predicate moxlib:block/states/power/12 run data modify storage moxlib:api/helpers/block/get output.state.power set value 12b
+execute if predicate moxlib:block/states/power/13 run data modify storage moxlib:api/helpers/block/get output.state.power set value 13b
+execute if predicate moxlib:block/states/power/14 run data modify storage moxlib:api/helpers/block/get output.state.power set value 14b
+execute if predicate moxlib:block/states/power/15 run data modify storage moxlib:api/helpers/block/get output.state.power set value 15b

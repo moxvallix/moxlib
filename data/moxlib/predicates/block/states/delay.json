@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/delay/1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/delay/2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/delay/3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/delay/4"
+    }
+  ]
+}

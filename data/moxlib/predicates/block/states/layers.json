@@ -1,0 +1,37 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/layers/1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/layers/2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/layers/3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/layers/4"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/layers/5"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/layers/6"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/layers/7"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/layers/8"
+    }
+  ]
+}

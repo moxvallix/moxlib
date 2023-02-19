@@ -1,0 +1,8 @@
+execute if predicate moxlib:block/states/type/left run data modify storage moxlib:api/helpers/block/get output.state.type set value "left"
+execute if predicate moxlib:block/states/type/right run data modify storage moxlib:api/helpers/block/get output.state.type set value "right"
+execute if predicate moxlib:block/states/type/single run data modify storage moxlib:api/helpers/block/get output.state.type set value "single"
+execute if predicate moxlib:block/states/type/normal run data modify storage moxlib:api/helpers/block/get output.state.type set value "normal"
+execute if predicate moxlib:block/states/type/sticky run data modify storage moxlib:api/helpers/block/get output.state.type set value "sticky"
+execute if predicate moxlib:block/states/type/bottom run data modify storage moxlib:api/helpers/block/get output.state.type set value "bottom"
+execute if predicate moxlib:block/states/type/top run data modify storage moxlib:api/helpers/block/get output.state.type set value "top"
+execute if predicate moxlib:block/states/type/double run data modify storage moxlib:api/helpers/block/get output.state.type set value "double"

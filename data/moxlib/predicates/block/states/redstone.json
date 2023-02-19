@@ -1,0 +1,53 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/conditional"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/delay"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/disarmed"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/enabled"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/extended"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/face"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/locked"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/mode"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/power"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/powered"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/triggered"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/type"
+    }
+  ]
+}

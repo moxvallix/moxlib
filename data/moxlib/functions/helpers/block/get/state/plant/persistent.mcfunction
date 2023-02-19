@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/persistent/true run data modify storage moxlib:api/helpers/block/get output.state.persistent set value true
+execute if predicate moxlib:block/states/persistent/false run data modify storage moxlib:api/helpers/block/get output.state.persistent set value false

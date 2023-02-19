@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/berries/true run data modify storage moxlib:api/helpers/block/get output.state.berries set value true
+execute if predicate moxlib:block/states/berries/false run data modify storage moxlib:api/helpers/block/get output.state.berries set value false

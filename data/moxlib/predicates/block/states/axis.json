@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/axis/x"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/axis/y"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/axis/z"
+    }
+  ]
+}

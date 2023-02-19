@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/east/true"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/east/false"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/east/low"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/east/none"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/east/tall"
+    }
+  ]
+}

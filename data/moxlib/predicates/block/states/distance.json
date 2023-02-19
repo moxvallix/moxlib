@@ -1,0 +1,37 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/distance/0"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/distance/1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/distance/2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/distance/3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/distance/4"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/distance/5"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/distance/6"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/distance/7"
+    }
+  ]
+}
