@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/west/true"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/west/false"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/west/low"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/west/none"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/west/tall"
+    }
+  ]
+}

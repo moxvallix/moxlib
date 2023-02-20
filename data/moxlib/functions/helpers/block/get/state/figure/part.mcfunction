@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/part/head run data modify storage moxlib:api/helpers/block/get output.state.part set value "head"
+execute if predicate moxlib:block/states/part/foot run data modify storage moxlib:api/helpers/block/get output.state.part set value "foot"

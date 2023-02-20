@@ -1,0 +1,3 @@
+execute if predicate moxlib:block/states/face/wall run data modify storage moxlib:api/helpers/block/get output.state.face set value "wall"
+execute if predicate moxlib:block/states/face/ceiling run data modify storage moxlib:api/helpers/block/get output.state.face set value "ceiling"
+execute if predicate moxlib:block/states/face/floor run data modify storage moxlib:api/helpers/block/get output.state.face set value "floor"

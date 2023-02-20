@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/can_summon/true run data modify storage moxlib:api/helpers/block/get output.state.can_summon set value true
+execute if predicate moxlib:block/states/can_summon/false run data modify storage moxlib:api/helpers/block/get output.state.can_summon set value false

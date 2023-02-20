@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/tilt/full"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/tilt/none"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/tilt/partial"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/tilt/unstable"
+    }
+  ]
+}

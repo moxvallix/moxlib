@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/stage/0 run data modify storage moxlib:api/helpers/block/get output.state.stage set value 0b
+execute if predicate moxlib:block/states/stage/1 run data modify storage moxlib:api/helpers/block/get output.state.stage set value 1b

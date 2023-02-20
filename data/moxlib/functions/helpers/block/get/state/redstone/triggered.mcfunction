@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/triggered/true run data modify storage moxlib:api/helpers/block/get output.state.triggered set value true
+execute if predicate moxlib:block/states/triggered/false run data modify storage moxlib:api/helpers/block/get output.state.triggered set value false

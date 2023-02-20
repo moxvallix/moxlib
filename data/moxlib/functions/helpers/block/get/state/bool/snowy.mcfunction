@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/snowy/true run data modify storage moxlib:api/helpers/block/get output.state.snowy set value true
+execute if predicate moxlib:block/states/snowy/false run data modify storage moxlib:api/helpers/block/get output.state.snowy set value false

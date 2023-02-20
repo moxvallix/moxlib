@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/shrieking/true run data modify storage moxlib:api/helpers/block/get output.state.shrieking set value true
+execute if predicate moxlib:block/states/shrieking/false run data modify storage moxlib:api/helpers/block/get output.state.shrieking set value false

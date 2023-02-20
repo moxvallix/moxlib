@@ -1,0 +1,6 @@
+execute if predicate moxlib:block/states/mode/compare run data modify storage moxlib:api/helpers/block/get output.state.mode set value "compare"
+execute if predicate moxlib:block/states/mode/subtract run data modify storage moxlib:api/helpers/block/get output.state.mode set value "subtract"
+execute if predicate moxlib:block/states/mode/corner run data modify storage moxlib:api/helpers/block/get output.state.mode set value "corner"
+execute if predicate moxlib:block/states/mode/data run data modify storage moxlib:api/helpers/block/get output.state.mode set value "data"
+execute if predicate moxlib:block/states/mode/load run data modify storage moxlib:api/helpers/block/get output.state.mode set value "load"
+execute if predicate moxlib:block/states/mode/save run data modify storage moxlib:api/helpers/block/get output.state.mode set value "save"

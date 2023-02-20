@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/stage/0"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/stage/1"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+execute if predicate moxlib:block/states/can_summon run function moxlib:helpers/block/get/state/misc/can_summon
+execute if predicate moxlib:block/states/charges run function moxlib:helpers/block/get/state/misc/charges
+execute if predicate moxlib:block/states/distance run function moxlib:helpers/block/get/state/misc/distance
+execute if predicate moxlib:block/states/eggs run function moxlib:helpers/block/get/state/misc/eggs
+execute if predicate moxlib:block/states/hatch run function moxlib:helpers/block/get/state/misc/hatch
+execute if predicate moxlib:block/states/instrument run function moxlib:helpers/block/get/state/misc/instrument
+execute if predicate moxlib:block/states/layers run function moxlib:helpers/block/get/state/misc/layers
+execute if predicate moxlib:block/states/moisture run function moxlib:helpers/block/get/state/misc/moisture
+execute if predicate moxlib:block/states/note run function moxlib:helpers/block/get/state/misc/note
+execute if predicate moxlib:block/states/sculk_sensor_phase run function moxlib:helpers/block/get/state/misc/sculk_sensor_phase

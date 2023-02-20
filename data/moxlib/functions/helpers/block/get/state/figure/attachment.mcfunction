@@ -1,0 +1,4 @@
+execute if predicate moxlib:block/states/attachment/ceiling run data modify storage moxlib:api/helpers/block/get output.state.attachment set value "ceiling"
+execute if predicate moxlib:block/states/attachment/double_wall run data modify storage moxlib:api/helpers/block/get output.state.attachment set value "double_wall"
+execute if predicate moxlib:block/states/attachment/floor run data modify storage moxlib:api/helpers/block/get output.state.attachment set value "floor"
+execute if predicate moxlib:block/states/attachment/single_wall run data modify storage moxlib:api/helpers/block/get output.state.attachment set value "single_wall"

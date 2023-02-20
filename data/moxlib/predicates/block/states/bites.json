@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/bites/0"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/bites/1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/bites/2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/bites/3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/bites/4"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/bites/5"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/bites/6"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/moisture/0"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/moisture/1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/moisture/2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/moisture/3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/moisture/4"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/moisture/5"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/moisture/6"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/moisture/7"
+    }
+  ]
+}

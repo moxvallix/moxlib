@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/pickles/1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/pickles/2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/pickles/3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/pickles/4"
+    }
+  ]
+}

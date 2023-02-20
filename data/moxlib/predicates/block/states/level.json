@@ -1,0 +1,69 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/0"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/4"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/5"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/6"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/7"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/8"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/9"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/10"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/11"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/12"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/13"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/14"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/level/15"
+    }
+  ]
+}
