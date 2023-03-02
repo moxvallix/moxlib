@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/leaves/large"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/leaves/none"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/leaves/small"
+    }
+  ]
+}

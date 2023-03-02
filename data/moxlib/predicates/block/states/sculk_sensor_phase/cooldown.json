@@ -1,0 +1,10 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "block": {
+      "state": {
+        "sculk_sensor_phase": "cooldown"
+      }
+    }
+  }
+}

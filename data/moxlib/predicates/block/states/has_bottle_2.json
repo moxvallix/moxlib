@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/has_bottle_2/true"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/has_bottle_2/false"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/waterlogged/true run data modify storage moxlib:api/helpers/block/get output.state.waterlogged set value true
+execute if predicate moxlib:block/states/waterlogged/false run data modify storage moxlib:api/helpers/block/get output.state.waterlogged set value false

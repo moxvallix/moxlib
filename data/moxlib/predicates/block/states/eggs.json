@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/eggs/1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/eggs/2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/eggs/3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/eggs/4"
+    }
+  ]
+}

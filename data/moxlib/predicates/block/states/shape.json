@@ -1,0 +1,65 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/east_west"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/north_east"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/north_south"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/north_west"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/south_east"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/south_west"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/ascending_east"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/ascending_north"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/ascending_west"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/ascending_south"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/inner_left"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/inner_right"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/outer_left"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/outer_right"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape/straight"
+    }
+  ]
+}

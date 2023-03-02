@@ -1,0 +1,37 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/type/left"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/type/right"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/type/single"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/type/normal"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/type/sticky"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/type/bottom"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/type/top"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/type/double"
+    }
+  ]
+}

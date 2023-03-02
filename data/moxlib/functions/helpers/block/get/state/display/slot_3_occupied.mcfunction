@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/slot_3_occupied/true run data modify storage moxlib:api/helpers/block/get output.state.slot_3_occupied set value true
+execute if predicate moxlib:block/states/slot_3_occupied/false run data modify storage moxlib:api/helpers/block/get output.state.slot_3_occupied set value false

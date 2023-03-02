@@ -1,0 +1,11 @@
+execute if predicate moxlib:block/states/attached run function moxlib:helpers/block/get/state/figure/attached
+execute if predicate moxlib:block/states/attachment run function moxlib:helpers/block/get/state/figure/attachment
+execute if predicate moxlib:block/states/bottom run function moxlib:helpers/block/get/state/figure/bottom
+execute if predicate moxlib:block/states/half run function moxlib:helpers/block/get/state/figure/half
+execute if predicate moxlib:block/states/hanging run function moxlib:helpers/block/get/state/figure/hanging
+execute if predicate moxlib:block/states/hinge run function moxlib:helpers/block/get/state/figure/hinge
+execute if predicate moxlib:block/states/in_wall run function moxlib:helpers/block/get/state/figure/in_wall
+execute if predicate moxlib:block/states/part run function moxlib:helpers/block/get/state/figure/part
+execute if predicate moxlib:block/states/shape run function moxlib:helpers/block/get/state/figure/shape
+execute if predicate moxlib:block/states/thickness run function moxlib:helpers/block/get/state/figure/thickness
+execute if predicate moxlib:block/states/tilt run function moxlib:helpers/block/get/state/figure/tilt

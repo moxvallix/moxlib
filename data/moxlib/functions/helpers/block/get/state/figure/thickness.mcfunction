@@ -1,0 +1,5 @@
+execute if predicate moxlib:block/states/thickness/tip_merge run data modify storage moxlib:api/helpers/block/get output.state.thickness set value "tip_merge"
+execute if predicate moxlib:block/states/thickness/tip run data modify storage moxlib:api/helpers/block/get output.state.thickness set value "tip"
+execute if predicate moxlib:block/states/thickness/frustum run data modify storage moxlib:api/helpers/block/get output.state.thickness set value "frustum"
+execute if predicate moxlib:block/states/thickness/middle run data modify storage moxlib:api/helpers/block/get output.state.thickness set value "middle"
+execute if predicate moxlib:block/states/thickness/base run data modify storage moxlib:api/helpers/block/get output.state.thickness set value "base"

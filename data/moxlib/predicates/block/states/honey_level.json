@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/honey_level/0"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/honey_level/1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/honey_level/2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/honey_level/3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/honey_level/4"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/honey_level/5"
+    }
+  ]
+}

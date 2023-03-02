@@ -1,0 +1,49 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/axis"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/up"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/down"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/north"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/east"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/south"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/west"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/facing"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/orientation"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/rotation"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/vertical_direction"
+    }
+  ]
+}

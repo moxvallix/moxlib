@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/mode/compare"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/mode/subtract"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/mode/corner"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/mode/data"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/mode/load"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/mode/save"
+    }
+  ]
+}

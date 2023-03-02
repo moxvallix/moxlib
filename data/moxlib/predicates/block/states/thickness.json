@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/thickness/tip_merge"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/thickness/tip"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/thickness/frustum"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/thickness/middle"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/thickness/base"
+    }
+  ]
+}

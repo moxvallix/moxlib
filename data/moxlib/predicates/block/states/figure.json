@@ -1,0 +1,49 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/attached"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/attachment"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/bottom"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/half"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/hanging"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/hinge"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/in_wall"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/part"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/shape"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/thickness"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/tilt"
+    }
+  ]
+}

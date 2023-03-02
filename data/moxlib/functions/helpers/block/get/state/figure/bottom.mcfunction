@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/bottom/true run data modify storage moxlib:api/helpers/block/get output.state.bottom set value true
+execute if predicate moxlib:block/states/bottom/false run data modify storage moxlib:api/helpers/block/get output.state.bottom set value false

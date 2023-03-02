@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/half/lower"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/half/upper"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/half/bottom"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/half/top"
+    }
+  ]
+}

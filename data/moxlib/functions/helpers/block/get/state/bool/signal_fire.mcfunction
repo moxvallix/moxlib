@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/signal_fire/true run data modify storage moxlib:api/helpers/block/get output.state.signal_fire set value true
+execute if predicate moxlib:block/states/signal_fire/false run data modify storage moxlib:api/helpers/block/get output.state.signal_fire set value false

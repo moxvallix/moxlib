@@ -1,0 +1,2 @@
+execute if predicate moxlib:block/states/conditional/true run data modify storage moxlib:api/helpers/block/get output.state.conditional set value true
+execute if predicate moxlib:block/states/conditional/false run data modify storage moxlib:api/helpers/block/get output.state.conditional set value false

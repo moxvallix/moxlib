@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/up/true"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:block/states/up/false"
+    }
+  ]
+}
