@@ -4,3 +4,4 @@ function moxlib:spec/data/get
 function moxlib:spec/data/includes
 function moxlib:spec/data/not_includes
 function moxlib:spec/data/set
+function moxlib:spec/data/array/_perform
