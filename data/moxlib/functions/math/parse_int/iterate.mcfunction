@@ -14,7 +14,9 @@ execute if data storage moxlib:math/private/parse_int {digit:"8"} run scoreboard
 execute if data storage moxlib:math/private/parse_int {digit:"9"} run scoreboard players set $digit moxlib.math.parse_int 9
 
 execute if score $digit moxlib.math.parse_int matches -1 run data modify storage moxlib:api/math/parse_int success set value false
+execute store result storage moxlib:math/private/parse_int digit byte 1 run scoreboard players get $digit moxlib.math.parse_int
+execute if data storage moxlib:api/math/parse_int {success:true} run data modify storage moxlib:api/math/array_to_integer target append from storage moxlib:math/private/parse_int digit
 
 data remove storage moxlib:api/string/to_array output[0]
 
-execute if data storage moxlib:api/string/to_array output[0] run function moxlib:math/parse_int/iterate
+execute if data storage moxlib:api/string/to_array output[0] if data storage moxlib:api/math/parse_int {success:true} run function moxlib:math/parse_int/iterate
