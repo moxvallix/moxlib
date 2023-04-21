@@ -1,5 +1,5 @@
 # Player
-## Exposes helpful information about players
+## Exposes helpful Informationabout players
 
 Due to Moxlib's goal of running nothing on tick by default, this module
 effectively has to be "enabled". It has a single function, `moxlib:api/player/run`,

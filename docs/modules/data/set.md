@@ -1,5 +1,10 @@
 # Set
-`moxlib:api/data/set`
+
+| Information                          |                                            |
+---------------------------------------|--------------------------------------------|
+| :material-file-document: **Type**    | [Data Function](/types/tool#data-function) |
+| :material-code-braces: **Namespace** | `moxlib:api/data/set`                      |
+| :material-minecraft: **Versions**    | 1.15+                                      |
 
 ## Overview
 If a record in `target` successfully [Compares](/modules/data/compare) with `key`, that record has `data` merged into it.

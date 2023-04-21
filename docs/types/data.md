@@ -1,4 +1,4 @@
-# Types
+# Data Types
 The following is a list of types referenced in the Moxlib API. These are not the same as NBT types; they are largely
 simplified aliases for them instead, for ease of use and understanding.
 
@@ -19,6 +19,8 @@ Each record withing the collection is seperated by a comma (`,`).
 Within the documentation, data listed as an Array will often have another data type listed in front of it,
 dictating the type of what the values within the array should be. For example,
 [String Array](#array) is an array containing only [Strings](#string).
+
+Arrays may only contain a single type of data.
 
 ## String
 `"Hello, World!"`
@@ -73,3 +75,6 @@ See [NBT Format - Data Types](https://minecraft.fandom.com/wiki/NBT_format#Data_
 `847.093D`
 
 See [NBT Format - Data Types](https://minecraft.fandom.com/wiki/NBT_format#Data_types). Has a suffix of `D`.
+
+## Score
+A score on a scoreboard objective. Same value range as [Integer](#integer).

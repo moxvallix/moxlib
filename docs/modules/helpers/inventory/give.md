@@ -1,5 +1,10 @@
 # Give
-`moxlib:api/helpers/inventory/give`
+
+| Information                            |                                                   |
+-----------------------------------------|---------------------------------------------------|
+| :material-file-document: **Type**      | [Entity Function](/types/utility#entity-function) |
+| :material-code-braces: **Namespace**   | `moxlib:api/helpers/inventory/give`               |
+| :material-minecraft: **Versions**      | 1.17+                                             |
 
 ## Overview
 Gives the executing player an item from data.

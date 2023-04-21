@@ -1,6 +1,12 @@
 # Strip Slots
 `moxlib:api/helpers/inventory/strip_slots`
 
+| Information                            |                                               |
+-----------------------------------------|-----------------------------------------------|
+| :material-file-document: **Type**      | [Data Function](/types/utility#data-function) |
+| :material-code-braces: **Namespace**   | `moxlib:api/helpers/inventory/strip_slots`    |
+| :material-minecraft: **Versions**      | 1.15+                                         |
+
 ## Overview
 Takes an array of items in the standard inventory format (Inventory, EnderItems, Items etc),
 and removes any slot data from it. Useful for cleaning up inventory dumps, when Slot info is

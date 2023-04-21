@@ -1,5 +1,10 @@
 # Teleport
-`moxlib:api/helpers/player/teleport`
+
+| Information                            |                                                   |
+-----------------------------------------|---------------------------------------------------|
+| :material-file-document: **Type**      | [Entity Function](/types/utility#entity-function) |
+| :material-code-braces: **Namespace**   | `moxlib:api/helpers/player/teleport`              |
+| :material-minecraft: **Versions**      | 1.17+                                             |
 
 ## Overview
 Teleports the executing player to the given coordinates, within the same dimension.

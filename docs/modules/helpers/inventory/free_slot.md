@@ -1,5 +1,10 @@
 # Free Slot
-`moxlib:api/helpers/inventory/free_slot`
+
+| Information                            |                                                   |
+-----------------------------------------|---------------------------------------------------|
+| :material-file-document: **Type**      | [Entity Function](/types/utility#entity-function) |
+| :material-code-braces: **Namespace**   | `moxlib:api/helpers/inventory/free_slot`          |
+| :material-minecraft: **Versions**      | 1.15+                                             |
 
 ## Overview
 Returns the lowest free inventory slot of the executing player.

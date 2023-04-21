@@ -1,5 +1,10 @@
 # Get
-`moxlib:api/helpers/block/get`
+
+| Information                            |                                               |
+-----------------------------------------|-----------------------------------------------|
+| :material-file-document: **Type**      | [Data Function](/types/utility#data-function) |
+| :material-code-braces: **Namespace**   | `moxlib:api/helpers/block/get`                |
+| :material-minecraft: **Versions**      | 1.15+ (with compatibility pack)               |
 
 ## Overview
 Gets the `id`, as well as other information, on the block at ~ ~ ~.

@@ -1,5 +1,10 @@
 # To Item
-`moxlib:api/helpers/block/to_item`
+
+| Information                            |                                               |
+-----------------------------------------|-----------------------------------------------|
+| :material-file-document: **Type**      | [Data Function](/types/utility#data-function) |
+| :material-code-braces: **Namespace**   | `moxlib:api/helpers/block/to_item`            |
+| :material-minecraft: **Versions**      | 1.15+                                         |
 
 ## Overview
 

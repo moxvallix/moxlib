@@ -5,6 +5,12 @@
     This module is Experimental, and requires **Moxlib Exp**. See [Getting Started](/setup)
     for more information.
 
+| Information                            |                                               |
+-----------------------------------------|-----------------------------------------------|
+| :material-file-document: **Type**      | [Dimension](/types/utility#dimension)         |
+| :material-code-braces: **Namespace**   | `moxlib:api/data/collect`                     |
+| :material-minecraft: **Versions**      | 1.18+                                         |
+
 Moxlib provides a void dimension, useful for functions that require manipulation of temporary
 or permanent blocks.
 

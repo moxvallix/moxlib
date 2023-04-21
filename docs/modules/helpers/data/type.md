@@ -1,5 +1,10 @@
 # Type
-`moxlib:api/helpers/data/type`
+
+| Information                            |                                               |
+-----------------------------------------|-----------------------------------------------|
+| :material-file-document: **Type**      | [Data Function](/types/utility#data-function) |
+| :material-code-braces: **Namespace**   | `moxlib:api/helpers/data/type`                |
+| :material-minecraft: **Versions**      | 1.15+                                         |
 
 ## Overview
 Returns the [Type](/types) of the given data.

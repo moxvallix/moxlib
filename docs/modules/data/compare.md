@@ -1,5 +1,10 @@
 # Compare
-`moxlib:api/data/compare`
+
+| Information                          |                                               |
+---------------------------------------|-----------------------------------------------|
+| :material-file-document: **Type**    | [Data Function](/types/utility#data-function) |
+| :material-code-braces: **Namespace** | `moxlib:api/data/compare`                     |
+| :material-minecraft: **Versions**    | 1.15+                                         |
 
 ## Overview
 Returns an `output` of true if `target` contains all of the same key/value pairings as `key`.

@@ -1,8 +1,13 @@
 # Get
-`moxlib:api/data/get`
+
+| Information                          |                                               |
+---------------------------------------|-----------------------------------------------|
+| :material-file-document: **Type**    | [Data Function](/types/utility#data-function) |
+| :material-code-braces: **Namespace** | `moxlib:api/data/get`                         |
+| :material-minecraft: **Versions**    | 1.15+                                         |
 
 ## Overview
-Retrieves the first [Object](/types/#object) in `target` to successfully [Compare](/modules/data/compare) with `key`.
+Retrieves the first [Object](/types/data#object) in `target` to successfully [Compare](/modules/data/compare) with `key`.
 
 !!! example
     In this example, `key` is set to `{id:2}`. As such, it returns `{id:2,b:1}` to `output`.

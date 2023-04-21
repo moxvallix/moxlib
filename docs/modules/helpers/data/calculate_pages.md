@@ -1,5 +1,11 @@
 # Calculate Pages
-`moxlib:api/helpers/data/calculate_pages`
+
+| Information                            |                                               |
+-----------------------------------------|-----------------------------------------------|
+| :material-file-document: **Type**      | [Data Function](/types/utility#data-function) |
+| :material-code-braces: **Namespace**   | `moxlib:api/helpers/data/calculate_pages`     |
+| :material-minecraft: **Versions**      | 1.15+                                         |
+
 
 ## Overview
 Calculates the amount of pages `target` array has, with a page size of `count`.

@@ -1,5 +1,10 @@
 # Stack Max
-`moxlib:api/helpers/inventory/stack_max`
+
+| Information                            |                                               |
+-----------------------------------------|-----------------------------------------------|
+| :material-file-document: **Type**      | [Data Function](/types/utility#data-function) |
+| :material-code-braces: **Namespace**   | `moxlib:api/helpers/inventory/stack_max`      |
+| :material-minecraft: **Versions**      | 1.17+                                         |
 
 ## Overview
 Returns the maximum stack size of the given item id.

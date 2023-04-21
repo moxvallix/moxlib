@@ -1,5 +1,10 @@
 # Head
-`moxlib:api/helpers/player/head`
+
+| Information                            |                                                   |
+-----------------------------------------|---------------------------------------------------|
+| :material-file-document: **Type**      | [Entity Function](/types/utility#entity-function) |
+| :material-code-braces: **Namespace**   | `moxlib:api/helpers/player/head`                  |
+| :material-minecraft: **Versions**      | 1.17+                                             |
 
 ## Overview
 Gets the executing player's head as an item, and stores it in `output`.

@@ -1,5 +1,10 @@
 # Compact
-`moxlib:api/helpers/inventory/compact`
+
+| Information                            |                                               |
+-----------------------------------------|-----------------------------------------------|
+| :material-file-document: **Type**      | [Data Function](/types/utility#data-function) |
+| :material-code-braces: **Namespace**   | `moxlib:api/helpers/inventory/compact`        |
+| :material-minecraft: **Versions**      | 1.15+                                         |
 
 ## Overview
 Takes an array of items in the standard inventory format (Inventory, EnderItems, Items etc),

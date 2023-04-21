@@ -1,5 +1,10 @@
 # Paginate
-`moxlib:api/data/paginate`
+
+| Information                          |                                            |
+---------------------------------------|--------------------------------------------|
+| :material-file-document: **Type**    | [Data Function](/types/tool#data-function) |
+| :material-code-braces: **Namespace** | `moxlib:api/data/paginate`                 |
+| :material-minecraft: **Versions**    | 1.15+                                      |
 
 ## Overview
 Groups records in `target` based on the size of `count`. Returns the grouped records based on the value of `page`.
