@@ -5,9 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.7] - 2023-04-01
+### Added
+- Verify function, to check that Moxlib is installed.
+- Data / Array / Slice, to select data from an array between the `start` and `end` indexes.
+- String / ASCII
+  - Table, a two dimensional array, of all the ASCII characters at their correct co-ordinates.
+  - Reference, an object containing all ASCII characters that can't be directly written in NBT.
+  - Encode, given a character, return it's ASCII index as a byte.
+  - Decode, given an index, return it's corresponding ASCII character.
+
+### Fixed
+- Math / Random `$rand_112` and `$rand_128` are now correctly set to their respective ranges.
+
 ## [0.5.6] - 2023-02-20
 ### Changed
-- Math / Constants now have 2000, 4000, 8000, and 10000
+- Math / Constants now have 2000, 4000, 8000, and 10000.
 - Helpers / Block / Get can now get block states.
 - Running all tests from Test / Start will display a percentage of successful tests.
 
