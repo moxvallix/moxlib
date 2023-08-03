@@ -1,0 +1,34 @@
+site_name: Moxlib
+repo_url: https://github.com/moxvallix/moxlib
+repo_name: moxvallix/moxlib
+theme:
+  name: material
+  logo: assets/icon.png
+  favicon: assets/icon.png
+  palette: 
+    scheme: slate
+    primary: black
+    accent: indigo
+  features:
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+markdown_extensions:
+  - attr_list
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+extra:
+  social:
+    - icon: simple/mastodon
+      link: https://mastodon.online/@moxvallix
+    - icon: simple/discord
+      link: https://discord.gg/tGfeBxwBpy
+    - icon: simple/reddit
+      link: https://www.reddit.com/r/Moxvallix
+    - icon: simple/github
+      link: https://github.com/moxvallix
