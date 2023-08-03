@@ -1,0 +1,1 @@
+$data modify storage moxlib:string/split concatenate.target set value "$(target)$(suffix)"
