@@ -1,0 +1,23 @@
+@media screen and (max-width: 76.2344em) {
+  .md-mobile-hidden {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 76.2344em) {
+  .md-desktop-hidden {
+    display: none;
+  }
+}
+
+.md-nav-title {
+  display: flex;
+  align-items: center;
+}
+
+.md-nav-site-name {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0px;
+}

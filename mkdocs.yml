@@ -1,6 +1,8 @@
-site_name: Moxlib
+site_name: Moxlib Docs
 repo_url: https://github.com/moxvallix/moxlib
 repo_name: moxvallix/moxlib
+extra_css:
+  - overrides/extra.css
 theme:
   name: material
   logo: assets/icon.png
@@ -13,6 +15,7 @@ theme:
     - navigation.top
     - navigation.footer
     - navigation.indexes
+  custom_dir: docs/overrides
 markdown_extensions:
   - attr_list
   - def_list
