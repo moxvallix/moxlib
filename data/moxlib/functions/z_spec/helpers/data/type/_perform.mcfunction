@@ -1,0 +1,12 @@
+function moxlib:z_spec/helpers/data/type/array
+function moxlib:z_spec/helpers/data/type/object
+function moxlib:z_spec/helpers/data/type/byte
+function moxlib:z_spec/helpers/data/type/short
+function moxlib:z_spec/helpers/data/type/int
+function moxlib:z_spec/helpers/data/type/long
+function moxlib:z_spec/helpers/data/type/float
+function moxlib:z_spec/helpers/data/type/double
+function moxlib:z_spec/helpers/data/type/json
+function moxlib:z_spec/helpers/data/type/invalid_json
+function moxlib:z_spec/helpers/data/type/string
+function moxlib:z_spec/helpers/data/type/unknown

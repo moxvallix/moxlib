@@ -1,1 +1,0 @@
-execute if entity @s[tag=moxlib.dev] run function moxlib:spec/perform
