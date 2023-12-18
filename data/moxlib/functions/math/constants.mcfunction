@@ -1,3 +1,13 @@
+scoreboard players set $-1024 moxlib.api.math.constants -1024
+scoreboard players set $-512 moxlib.api.math.constants -512
+scoreboard players set $-256 moxlib.api.math.constants -256
+scoreboard players set $-128 moxlib.api.math.constants -128
+scoreboard players set $-64 moxlib.api.math.constants -64
+scoreboard players set $-32 moxlib.api.math.constants -32
+scoreboard players set $-16 moxlib.api.math.constants -16
+scoreboard players set $-8 moxlib.api.math.constants -8
+scoreboard players set $-4 moxlib.api.math.constants -4
+scoreboard players set $-2 moxlib.api.math.constants -2
 scoreboard players set $-1 moxlib.api.math.constants -1
 scoreboard players set $0 moxlib.api.math.constants 0
 scoreboard players set $1 moxlib.api.math.constants 1
@@ -102,6 +112,7 @@ scoreboard players set $99 moxlib.api.math.constants 99
 scoreboard players set $100 moxlib.api.math.constants 100
 scoreboard players set $112 moxlib.api.math.constants 112
 scoreboard players set $120 moxlib.api.math.constants 120
+scoreboard players set $127 moxlib.api.math.constants 127
 scoreboard players set $128 moxlib.api.math.constants 128
 scoreboard players set $140 moxlib.api.math.constants 140
 scoreboard players set $160 moxlib.api.math.constants 160
@@ -109,6 +120,8 @@ scoreboard players set $180 moxlib.api.math.constants 180
 scoreboard players set $200 moxlib.api.math.constants 200
 scoreboard players set $220 moxlib.api.math.constants 220
 scoreboard players set $240 moxlib.api.math.constants 240
+scoreboard players set $255 moxlib.api.math.constants 255
+scoreboard players set $256 moxlib.api.math.constants 256
 scoreboard players set $260 moxlib.api.math.constants 260
 scoreboard players set $280 moxlib.api.math.constants 280
 scoreboard players set $300 moxlib.api.math.constants 300
@@ -122,6 +135,8 @@ scoreboard players set $440 moxlib.api.math.constants 440
 scoreboard players set $460 moxlib.api.math.constants 460
 scoreboard players set $480 moxlib.api.math.constants 480
 scoreboard players set $500 moxlib.api.math.constants 500
+scoreboard players set $511 moxlib.api.math.constants 511
+scoreboard players set $512 moxlib.api.math.constants 512
 scoreboard players set $520 moxlib.api.math.constants 520
 scoreboard players set $540 moxlib.api.math.constants 540
 scoreboard players set $560 moxlib.api.math.constants 560
