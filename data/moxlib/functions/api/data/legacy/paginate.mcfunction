@@ -1,1 +1,0 @@
-execute unless data storage moxlib:data/private {lock:true} run function moxlib:data/legacy/paginate/init
