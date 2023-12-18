@@ -1,0 +1,1 @@
+function moxlib:api/data/collect.macro with storage moxlib:api/data/collect

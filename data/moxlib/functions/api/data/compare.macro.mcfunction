@@ -1,0 +1,2 @@
+$data merge storage moxlib:api/data/compare {target: $(target), success: true, output: false}
+$execute if data storage moxlib:api/data/compare target$(key) run data modify storage moxlib:api/data/compare output set value true

@@ -1,0 +1,1 @@
+function moxlib:api/data/compare.macro with storage moxlib:api/data/compare
