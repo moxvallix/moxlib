@@ -1,0 +1,1 @@
+function moxlib:api/string/ascii/lookup.macro with storage moxlib:api/string/ascii/lookup
