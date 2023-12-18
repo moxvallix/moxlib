@@ -1,1 +1,1 @@
-$data modify storage moxlib:api/string/concatenate output set value "$(target)$(suffix)"
+function moxlib:api/string/concatenate.macro with storage moxlib:api/string/concatenate
