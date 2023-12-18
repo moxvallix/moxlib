@@ -1,0 +1,1 @@
+function moxlib:api/alias/tag/add.macro with storage moxlib:api/alias/tag

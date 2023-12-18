@@ -1,0 +1,1 @@
+$execute store result storage moxlib:api/alias/random output int 1 run random value $(start)..$(end) $(sequence)
