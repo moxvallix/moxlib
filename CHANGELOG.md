@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.8] - 2023-08-24
+### Added
+- Data / Array / Reverse, to reverse the order of an array.
+- Helpers / Inventory / Insert, to handle adding items to inventory NBT.
+
+### Changed
+- Predicates have been updated to the 1.20 format.
+
 ## [0.5.7] - 2023-04-01
 ### Added
 - Verify function, to check that Moxlib is installed.
