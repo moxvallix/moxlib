@@ -1,1 +1,1 @@
-function moxlib:helpers/block/place/init
+function moxlib:api/helpers/block/place.macro with storage moxlib:api/helpers/block/place
