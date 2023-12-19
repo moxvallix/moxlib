@@ -1,0 +1,6 @@
+execute if predicate moxlib:helpers/block/get/states/facing/north run data modify storage moxlib:api/helpers/block/get output.state.facing set value "north"
+execute if predicate moxlib:helpers/block/get/states/facing/east run data modify storage moxlib:api/helpers/block/get output.state.facing set value "east"
+execute if predicate moxlib:helpers/block/get/states/facing/south run data modify storage moxlib:api/helpers/block/get output.state.facing set value "south"
+execute if predicate moxlib:helpers/block/get/states/facing/west run data modify storage moxlib:api/helpers/block/get output.state.facing set value "west"
+execute if predicate moxlib:helpers/block/get/states/facing/up run data modify storage moxlib:api/helpers/block/get output.state.facing set value "up"
+execute if predicate moxlib:helpers/block/get/states/facing/down run data modify storage moxlib:api/helpers/block/get output.state.facing set value "down"

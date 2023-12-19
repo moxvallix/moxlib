@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #moxlib:helpers/block/get/blocks/%left% run function moxlib:helpers/block/get/blocks/%left%
+execute if block ~ ~ ~ #moxlib:helpers/block/get/blocks/%right% run function moxlib:helpers/block/get/blocks/%right%

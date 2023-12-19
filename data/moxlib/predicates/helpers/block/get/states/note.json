@@ -1,0 +1,105 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/0"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/4"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/5"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/6"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/7"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/8"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/9"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/10"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/11"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/12"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/13"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/14"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/15"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/16"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/17"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/18"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/19"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/20"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/21"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/22"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/23"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note/24"
+    }
+  ]
+}

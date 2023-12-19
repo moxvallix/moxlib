@@ -1,0 +1,6 @@
+{
+  "values": [
+    "#moxlib:helpers/block/get/blocks/%left%",
+    "#moxlib:helpers/block/get/blocks/%right%"
+  ]
+}

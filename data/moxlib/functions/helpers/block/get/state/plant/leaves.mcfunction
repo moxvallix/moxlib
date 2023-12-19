@@ -1,3 +1,0 @@
-execute if predicate moxlib:block/states/leaves/large run data modify storage moxlib:api/helpers/block/get output.state.leaves set value "large"
-execute if predicate moxlib:block/states/leaves/none run data modify storage moxlib:api/helpers/block/get output.state.leaves set value "none"
-execute if predicate moxlib:block/states/leaves/small run data modify storage moxlib:api/helpers/block/get output.state.leaves set value "small"

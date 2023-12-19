@@ -1,0 +1,2 @@
+execute if predicate moxlib:helpers/block/get/states/disarmed/true run data modify storage moxlib:api/helpers/block/get output.state.disarmed set value true
+execute if predicate moxlib:helpers/block/get/states/disarmed/false run data modify storage moxlib:api/helpers/block/get output.state.disarmed set value false

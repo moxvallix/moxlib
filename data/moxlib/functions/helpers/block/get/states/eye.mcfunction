@@ -1,0 +1,2 @@
+execute if predicate moxlib:helpers/block/get/states/eye/true run data modify storage moxlib:api/helpers/block/get output.state.eye set value true
+execute if predicate moxlib:helpers/block/get/states/eye/false run data modify storage moxlib:api/helpers/block/get output.state.eye set value false

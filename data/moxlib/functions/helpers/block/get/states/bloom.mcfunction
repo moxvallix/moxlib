@@ -1,0 +1,2 @@
+execute if predicate moxlib:helpers/block/get/states/bloom/true run data modify storage moxlib:api/helpers/block/get output.state.bloom set value true
+execute if predicate moxlib:helpers/block/get/states/bloom/false run data modify storage moxlib:api/helpers/block/get output.state.bloom set value false

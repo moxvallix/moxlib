@@ -1,0 +1,1 @@
+data modify storage moxlib:api/helpers/block/get output.block set value "minecraft:dead_brain_coral_wall_fan"
