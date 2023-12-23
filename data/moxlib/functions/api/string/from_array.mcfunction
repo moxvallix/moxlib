@@ -1,1 +1,1 @@
-execute unless data storage moxlib:string/private {lock:true} run function moxlib:string/from_array/init
+execute unless data storage moxlib:string/private {lock:true} run function moxlib:api/string/from_array.macro with storage moxlib:api/string/from_array
