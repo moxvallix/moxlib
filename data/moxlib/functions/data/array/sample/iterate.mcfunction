@@ -1,6 +1,7 @@
 scoreboard players remove $iterate moxlib.data.array.sample 1
 data modify storage moxlib:api/alias/random start set value 0
-execute store result storage moxlib:api/alias/random end int 1 run data get storage moxlib:api/data/array/sample target
+execute store result score $size moxlib.data.array.sample run data get storage moxlib:api/data/array/sample target
+execute store result storage moxlib:api/alias/random end int 1 run scoreboard players remove $size moxlib.data.array.sample 1
 
 function moxlib:api/alias/random
 function moxlib:data/array/sample/index with storage moxlib:api/alias/random
