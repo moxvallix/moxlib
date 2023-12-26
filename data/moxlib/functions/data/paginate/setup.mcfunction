@@ -1,1 +1,1 @@
-data remove storage moxlib:api/data/paginate output
+data modify storage moxlib:api/data/paginate output set value []
