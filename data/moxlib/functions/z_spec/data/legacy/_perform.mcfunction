@@ -4,3 +4,4 @@ function moxlib:z_spec/data/legacy/get
 function moxlib:z_spec/data/legacy/includes
 function moxlib:z_spec/data/legacy/not_includes
 function moxlib:z_spec/data/legacy/set
+function moxlib:z_spec/data/legacy/collect
