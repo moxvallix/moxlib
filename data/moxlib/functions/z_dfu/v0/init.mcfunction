@@ -1,0 +1,1 @@
+execute if score $minor moxlib.version matches 5 if score $patch moxlib.version matches ..11 run function moxlib:z_dfu/v0/v5_12

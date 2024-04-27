@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.12] - 2024-04-28
+### Changed
+- Pack now requires 1.20.5
+- String / ASCII now only has one function, lookup.
+- Helpers / Block / Get now uses a binary search tree.
+- Helpers / Data / Type no longer has `json` type.
+
+### Removed
+- String / ASCII decode and encode.
+
 ## [0.5.11] - 2023-12-24
 ### Added
 - String / Concatenate, to combine two strings. Requires 1.20.2+.

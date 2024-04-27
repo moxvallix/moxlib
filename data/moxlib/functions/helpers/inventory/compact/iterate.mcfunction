@@ -3,7 +3,7 @@ data modify storage moxlib:helpers/inventory/compact current set from storage mo
 data modify storage moxlib:api/data/collect target set from storage moxlib:helpers/inventory/compact target
 data modify storage moxlib:api/data/collect key set from storage moxlib:helpers/inventory/compact current
 data remove storage moxlib:api/data/collect key.Slot
-data remove storage moxlib:api/data/collect key.Count
+data remove storage moxlib:api/data/collect key.count
 
 function moxlib:api/data/collect
 

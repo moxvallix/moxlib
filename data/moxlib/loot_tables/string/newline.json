@@ -13,8 +13,9 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{pages:[\"\n\"]}"
+              "function": "set_writable_book_pages",
+              "pages":  ["\n"],
+              "mode": "replace_all"
             }
           ]
         }
