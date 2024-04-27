@@ -6,7 +6,5 @@ function moxlib:spec/helpers/data/type/int
 function moxlib:spec/helpers/data/type/long
 function moxlib:spec/helpers/data/type/float
 function moxlib:spec/helpers/data/type/double
-function moxlib:spec/helpers/data/type/json
-function moxlib:spec/helpers/data/type/invalid_json
 function moxlib:spec/helpers/data/type/string
 function moxlib:spec/helpers/data/type/unknown
