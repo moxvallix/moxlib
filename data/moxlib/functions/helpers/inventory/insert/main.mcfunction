@@ -8,7 +8,7 @@ data modify storage moxlib:helpers/inventory/insert inventory set from entity 80
 data modify entity 8077ef6a-7e7f-4a77-94d8-f99eb9e6e2f3 Items set value []
 kill 8077ef6a-7e7f-4a77-94d8-f99eb9e6e2f3
 
-execute store result score $insert_size moxlib.helpers.inventory.insert run data get storage moxlib:api/helpers/inventory/insert item.Count
+execute store result score $insert_size moxlib.helpers.inventory.insert run data get storage moxlib:api/helpers/inventory/insert item.count
 scoreboard players set $next_slot moxlib.helpers.inventory.insert -1
 data modify storage moxlib:helpers/inventory/insert empty_slots set value []
 
@@ -33,5 +33,5 @@ data modify entity 8077ef6a-7e7f-4a77-94d8-f99eb9e6e2f3 Items set value []
 kill 8077ef6a-7e7f-4a77-94d8-f99eb9e6e2f3
 
 execute if score $insert_size moxlib.helpers.inventory.insert matches 0 run return -1
-execute store result storage moxlib:api/helpers/inventory/insert item.Count int 1 run scoreboard players get $insert_size moxlib.helpers.inventory.insert
+execute store result storage moxlib:api/helpers/inventory/insert item.count int 1 run scoreboard players get $insert_size moxlib.helpers.inventory.insert
 data modify storage moxlib:api/helpers/inventory/insert output.overflow set from storage moxlib:api/helpers/inventory/insert item
