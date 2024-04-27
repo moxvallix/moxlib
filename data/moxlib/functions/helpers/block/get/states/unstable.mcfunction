@@ -1,0 +1,2 @@
+execute if predicate moxlib:helpers/block/get/states/unstable/true run data modify storage moxlib:api/helpers/block/get output.state.unstable set value true
+execute if predicate moxlib:helpers/block/get/states/unstable/false run data modify storage moxlib:api/helpers/block/get output.state.unstable set value false

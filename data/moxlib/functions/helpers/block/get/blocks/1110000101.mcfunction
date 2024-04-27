@@ -1,0 +1,1 @@
+data modify storage moxlib:api/helpers/block/get output.block set value "minecraft:stripped_dark_oak_log"

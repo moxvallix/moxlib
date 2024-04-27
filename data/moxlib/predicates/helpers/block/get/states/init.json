@@ -1,0 +1,305 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/facing"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/waterlogged"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/leaves"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/stage"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/rotation"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/open"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/axis"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/occupied"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/part"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/honey_level"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/attachment"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/tilt"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/lit"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/has_bottle_0"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/has_bottle_1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/has_bottle_2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/drag"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/face"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/bites"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/signal_fire"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/level"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/berries"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/type"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/slot_0_occupied"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/slot_1_occupied"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/slot_2_occupied"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/slot_3_occupied"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/slot_4_occupied"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/slot_5_occupied"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/north"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/south"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/east"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/west"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/up"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/down"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/conditional"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/power"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/triggered"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/half"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/hinge"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/eye"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/moisture"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/in_wall"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/snowy"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/enabled"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/orientation"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/has_record"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/hanging"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/distance"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/persistent"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/has_book"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/instrument"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/note"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/extended"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/thickness"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/vertical_direction"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/shape"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/mode"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/delay"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/locked"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/charges"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/bottom"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/bloom"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/sculk_sensor_phase"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/can_summon"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/shrieking"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/pickles"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/attached"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/layers"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/unstable"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/powered"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/disarmed"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/eggs"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/hatch"
+    }
+  ]
+}

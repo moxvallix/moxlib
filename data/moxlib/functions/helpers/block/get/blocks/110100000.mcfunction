@@ -1,0 +1,1 @@
+data modify storage moxlib:api/helpers/block/get output.block set value "minecraft:skeleton_wall_skull"

@@ -1,2 +1,0 @@
-execute if predicate moxlib:block/states/occupied/true run data modify storage moxlib:api/helpers/block/get output.state.occupied set value true
-execute if predicate moxlib:block/states/occupied/false run data modify storage moxlib:api/helpers/block/get output.state.occupied set value false

@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/north/true"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/north/false"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/north/low"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/north/none"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/north/tall"
+    }
+  ]
+}

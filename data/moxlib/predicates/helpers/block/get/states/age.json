@@ -1,0 +1,109 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/0"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/4"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/5"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/6"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/7"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/8"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/9"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/10"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/11"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/12"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/13"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/14"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/15"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/16"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/17"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/18"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/19"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/20"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/21"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/22"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/23"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/24"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxlib:helpers/block/get/states/age/25"
+    }
+  ]
+}

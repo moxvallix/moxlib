@@ -1,0 +1,16 @@
+execute if predicate moxlib:helpers/block/get/states/level/0 run data modify storage moxlib:api/helpers/block/get output.state.level set value 0b
+execute if predicate moxlib:helpers/block/get/states/level/1 run data modify storage moxlib:api/helpers/block/get output.state.level set value 1b
+execute if predicate moxlib:helpers/block/get/states/level/2 run data modify storage moxlib:api/helpers/block/get output.state.level set value 2b
+execute if predicate moxlib:helpers/block/get/states/level/3 run data modify storage moxlib:api/helpers/block/get output.state.level set value 3b
+execute if predicate moxlib:helpers/block/get/states/level/4 run data modify storage moxlib:api/helpers/block/get output.state.level set value 4b
+execute if predicate moxlib:helpers/block/get/states/level/5 run data modify storage moxlib:api/helpers/block/get output.state.level set value 5b
+execute if predicate moxlib:helpers/block/get/states/level/6 run data modify storage moxlib:api/helpers/block/get output.state.level set value 6b
+execute if predicate moxlib:helpers/block/get/states/level/7 run data modify storage moxlib:api/helpers/block/get output.state.level set value 7b
+execute if predicate moxlib:helpers/block/get/states/level/8 run data modify storage moxlib:api/helpers/block/get output.state.level set value 8b
+execute if predicate moxlib:helpers/block/get/states/level/9 run data modify storage moxlib:api/helpers/block/get output.state.level set value 9b
+execute if predicate moxlib:helpers/block/get/states/level/10 run data modify storage moxlib:api/helpers/block/get output.state.level set value 10b
+execute if predicate moxlib:helpers/block/get/states/level/11 run data modify storage moxlib:api/helpers/block/get output.state.level set value 11b
+execute if predicate moxlib:helpers/block/get/states/level/12 run data modify storage moxlib:api/helpers/block/get output.state.level set value 12b
+execute if predicate moxlib:helpers/block/get/states/level/13 run data modify storage moxlib:api/helpers/block/get output.state.level set value 13b
+execute if predicate moxlib:helpers/block/get/states/level/14 run data modify storage moxlib:api/helpers/block/get output.state.level set value 14b
+execute if predicate moxlib:helpers/block/get/states/level/15 run data modify storage moxlib:api/helpers/block/get output.state.level set value 15b

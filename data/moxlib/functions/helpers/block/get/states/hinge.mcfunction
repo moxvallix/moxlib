@@ -1,0 +1,2 @@
+execute if predicate moxlib:helpers/block/get/states/hinge/left run data modify storage moxlib:api/helpers/block/get output.state.hinge set value "left"
+execute if predicate moxlib:helpers/block/get/states/hinge/right run data modify storage moxlib:api/helpers/block/get output.state.hinge set value "right"
