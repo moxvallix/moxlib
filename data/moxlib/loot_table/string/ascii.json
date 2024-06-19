@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:writable_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_writable_book_pages",
+              "pages": ["[{id:0,value:'\u0000',name:'nul'},{id:1,value:'\u0001',name:'soh'},{id:2,value:'\u0002',name:'stx'},{id:3,value:'\u0003',name:'etx'},{id:4,value:'\u0004',name:'eot'},{id:5,value:'\u0005',name:'enq'},{id:6,value:'\u0006',name:'ack'},{id:7,value:'\u0007',name:'bel'},{id:8,value:'\u0008',name:'bs'},{id:9,value:'\u0009',name:'ht'},{id:10,value:'\u000a',name:'lf'},{id:11,value:'\u000b',name:'vt'},{id:12,value:'\u000c',name:'ff'},{id:13,value:'\u000d',name:'cr'},{id:14,value:'\u000e',name:'so'},{id:15,value:'\u000f',name:'si'},{id:16,value:'\u0010',name:'dle'},{id:17,value:'\u0011',name:'dc1'},{id:18,value:'\u0012',name:'dc2'},{id:19,value:'\u0013',name:'dc3'},{id:20,value:'\u0014',name:'dc4'},{id:21,value:'\u0015',name:'nak'},{id:22,value:'\u0016',name:'syn'},{id:23,value:'\u0017',name:'etb'},{id:24,value:'\u0018',name:'can'},{id:25,value:'\u0019',name:'em'},{id:26,value:'\u001a',name:'sub'},{id:27,value:'\u001b',name:'esc'},{id:28,value:'\u001c',name:'fs'},{id:29,value:'\u001d',name:'gs'},{id:30,value:'\u001e',name:'rs'},{id:31,value:'\u001f',name:'us'},{id:32,value:'\u0020',name:'sp'}]","[{id:33,value:'\u0021',name:'bash'},{id:34,value:'\"',name:'double_quote'},{id:35,value:'\u0023',name:'hash'},{id:36,value:'\u0024',name:'dollar'},{id:37,value:'\u0025',name:'percent'},{id:38,value:'\u0026',name:'ampersand'},{id:39,value:\"\u0027\",name:'single_quote'},{id:40,value:'\u0028',name:'left_bracket'},{id:41,value:'\u0029',name:'right_bracket'},{id:42,value:'\u002a',name:'asterisk'},{id:43,value:'\u002b',name:'plus'},{id:44,value:'\u002c',name:'comma'},{id:45,value:'\u002d',name:'minus'},{id:46,value:'\u002e',name:'full_stop'},{id:47,value:'\u002f',name:'forward_slash'},{id:48,value:'\u0030',name:'zero'},{id:49,value:'\u0031',name:'one'},{id:50,value:'\u0032',name:'two'},{id:51,value:'\u0033',name:'three'},{id:52,value:'\u0034',name:'four'},{id:53,value:'\u0035',name:'five'},{id:54,value:'\u0036',name:'six'},{id:55,value:'\u0037',name:'seven'},{id:56,value:'\u0038',name:'eight'},{id:57,value:'\u0039',name:'nine'},{id:58,value:'\u003a',name:'colon'},{id:59,value:'\u003b',name:'semicolon'},{id:60,value:'\u003c',name:'less_than'},{id:61,value:'\u003d',name:'equal'},{id:62,value:'\u003e',name:'greater_than'},{id:63,value:'\u003f',name:'question_mark'}]","[{id:64,value:'\u0040',name:'at'},{id:65,value:'\u0041',name:'A'},{id:66,value:'\u0042',name:'B'},{id:67,value:'\u0043',name:'C'},{id:68,value:'\u0044',name:'D'},{id:69,value:'\u0045',name:'E'},{id:70,value:'\u0046',name:'F'},{id:71,value:'\u0047',name:'G'},{id:72,value:'\u0048',name:'H'},{id:73,value:'\u0049',name:'I'},{id:74,value:'\u004a',name:'J'},{id:75,value:'\u004b',name:'K'},{id:76,value:'\u004c',name:'L'},{id:77,value:'\u004d',name:'M'},{id:78,value:'\u004e',name:'N'},{id:79,value:'\u004f',name:'O'},{id:80,value:'\u0050',name:'P'},{id:81,value:'\u0051',name:'Q'},{id:82,value:'\u0052',name:'R'},{id:83,value:'\u0053',name:'S'},{id:84,value:'\u0054',name:'T'},{id:85,value:'\u0055',name:'U'},{id:86,value:'\u0056',name:'V'},{id:87,value:'\u0057',name:'W'},{id:88,value:'\u0058',name:'X'},{id:89,value:'\u0059',name:'Y'},{id:90,value:'\u005a',name:'Z'},{id:91,value:'\u005b',name:'left_square_bracket'},{id:92,value:'\\\\',name:'back_slash'},{id:93,value:'\u005d',name:'right_square_bracket'},{id:94,value:'\u005e',name:'caret'},{id:95,value:'\u005f',name:'underscore'},{id:96,value:'\u0060',name:'backtick'},{id:97,value:'\u0061',name:'a'},{id:98,value:'\u0062',name:'b'}]","[{id:99,value:'\u0063',name:'c'},{id:100,value:'\u0064',name:'d'},{id:101,value:'\u0065',name:'e'},{id:102,value:'\u0066',name:'f'},{id:103,value:'\u0067',name:'g'},{id:104,value:'\u0068',name:'h'},{id:105,value:'\u0069',name:'i'},{id:106,value:'\u006a',name:'j'},{id:107,value:'\u006b',name:'k'},{id:108,value:'\u006c',name:'l'},{id:109,value:'\u006d',name:'m'},{id:110,value:'\u006e',name:'n'},{id:111,value:'\u006f',name:'o'},{id:112,value:'\u0070',name:'p'},{id:113,value:'\u0071',name:'q'},{id:114,value:'\u0072',name:'r'},{id:115,value:'\u0073',name:'s'},{id:116,value:'\u0074',name:'t'},{id:117,value:'\u0075',name:'u'},{id:118,value:'\u0076',name:'v'},{id:119,value:'\u0077',name:'w'},{id:120,value:'\u0078',name:'x'},{id:121,value:'\u0079',name:'y'},{id:122,value:'\u007a',name:'z'},{id:123,value:'\u007b',name:'left_curly_bracket'},{id:124,value:'\u007c',name:'pipe'},{id:125,value:'\u007d',name:'right_curly_bracket'},{id:126,value:'\u007e',name:'tilde'},{id:127,value:'\u007f',name:'del'}]"],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

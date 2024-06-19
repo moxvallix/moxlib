@@ -1,1 +1,0 @@
-$data modify storage moxlib:api/string/ascii/table output set value $(target)
